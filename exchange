@@ -6,7 +6,7 @@ from collections import OrderedDict
 
 class biki:
     def __init__(self, apiKey='', secret=''):
-        self.base_url = 'http://openapi.biki.com/exchange-open-api'
+        self.base_url = 'https://openapi.biki.com'
         self.apiKey = apiKey
         self.secret = secret
 
